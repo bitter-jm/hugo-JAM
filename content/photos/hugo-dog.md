@@ -3,14 +3,15 @@ title: "Hugo Dog"
 date: 2022-03-03T01:36:23+01:00
 draft: false
 author: Joan Marc Pastor
+tags: ['photo', 'dog', 'tongue']
 ---
 
 ## HUGO the Dog!
 
-Et proident exercitation velit nisi sunt enim dolore eu sint reprehenderit. Amet et aliqua id labore irure proident. Ea in commodo ullamco culpa ex. Ex aliquip cupidatat est consequat aute sit quis. Voluptate mollit aliqua laborum irure anim ea aliquip sunt ullamco.
+Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper.
 
 ![HUGO the dog](/hugo-the-dog.jpg)
 
-Excepteur occaecat ut pariatur duis officia qui sint aliquip exercitation incididunt deserunt nisi. Voluptate voluptate exercitation cupidatat nostrud eu ad nostrud Lorem exercitation Lorem tempor. Esse anim et reprehenderit occaecat magna aliqua duis. Aliqua exercitation voluptate cupidatat eiusmod qui.
+Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
 
-Non qui dolor exercitation sunt pariatur voluptate deserunt aliquip proident aute ut nulla aliquip. Eu duis enim occaecat sint ex voluptate. Ipsum do laboris ullamco officia aute sunt labore anim adipisicing amet pariatur eiusmod excepteur eiusmod. Occaecat et tempor sunt proident. Anim ipsum dolor velit est.
+Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum.

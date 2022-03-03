@@ -2,3 +2,5 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Hugo JAM Site'
 theme='tale'
+copyright = "Copyright 2019"
+disableKinds = ["section"]
