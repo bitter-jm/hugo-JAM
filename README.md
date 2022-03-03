@@ -1,3 +1,3 @@
 # hugo-JAM
 
-Static site generator using (Hugo)[https://gohugo.io/]
+Static site generator using [Hugo](https://gohugo.io/).
