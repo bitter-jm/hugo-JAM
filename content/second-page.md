@@ -1,8 +1,8 @@
 ---
 title: "Second Page"
-date: 2019-11-06T17:00:08+02:00
-draft: true
-author: Ray Viljoen
+date: 2022-03-10T10:25:38+01:00
+draft: false
+author: Joan Marc Pastor
 ---
 
 # Second JAMSite Page
