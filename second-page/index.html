@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Second Page &middot; JAMSite</title>
+
+		
+  		<link rel="stylesheet" href="/hugo-JAM/css/style.css">
+		<link rel="stylesheet" href="/hugo-JAM/css/fonts.css">
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="/hugo-JAM/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/hugo-JAM/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/hugo-JAM/images/apple-touch-icon.png">
+
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="JAMSite" />
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				<a href="/hugo-JAM/">
+					<h2 class="nav-title">JAMSite</h2>
+				</a>
+				<ul>
+    
+    
+</ul>
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        Joan Marc Pastor
+        <br>
+        <span>on&nbsp;</span><time datetime="2022-03-10 10:25:38 &#43;0100 &#43;0100">March 10, 2022</time>
+</div>
+		<h1 class="post-title">Second Page</h1>
+<div class="post-line"></div>
+
+		
+
+		<h1 id="second-jamsite-page">Second JAMSite Page</h1>
+<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper.</p>
+<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+<p>Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum.</p>
+
+
+		
+<style media="screen">
+
+  #contact {
+    background: #DEDEDE;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+
+  #contact input, #contact textarea {
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+  }
+
+  #contact button {
+    font-size: 1.25rem;
+    background: dodgerblue;
+    border-radius: 5px;
+    color: white;
+    width: 10rem;
+  }
+
+</style>
+
+<script>
+
+
+function handleContact() {
+
+  let contactForm = document.getElementById('contact')
+  let email = contactForm.elements[0]
+  let message = contactForm.elements[1]
+
+  
+  let formData = {}
+  formData[email.name] = email.value
+  formData[message.name] = message.value
+
+  
+  fetch('http://localhost:2222/', {
+    method: 'post',
+    mode: 'no-cors',
+    body: JSON.stringify(formData)
+  }).then( () => {
+
+    
+    contactForm.innerHTML = '<strong>Message sent!</strong>'
+  })
+
+  
+  return false
+}
+
+</script>
+
+<form id="contact" onsubmit="return handleContact()">
+  <input type="email" name="email" value="" placeholder="Email" required>
+  <textarea name="message" placeholder="Message" rows="8" cols="80"></textarea>
+  <button type="submit" name="button">Send Message</button>
+</form>
+
+
+		
+	</div>
+
+	<div class="pagination">
+		<a href="/hugo-JAM/first-page/" class="right arrow">&#8594;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        		<footer>
+			<span>
+			&copy; <time datetime="2022-03-10 09:40:55.572356415 &#43;0000 UTC m=&#43;0.043012685">2022</time> . Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			</span>
+		</footer>
+
+    </body>
+</html>
